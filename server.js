@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Database connection
-mongoose.connect('mongodb://localhost:27017/mentor-student');
+mongoose.connect('mongodb+srv://monishasukumaran07:yEBNhQiulsZQgGIe@dblearn.zpcyadt.mongodb.net/mentor-student');
 
 
 // Routes
